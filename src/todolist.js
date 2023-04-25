@@ -8,7 +8,7 @@ const Todolist = ({todos,deleteHandler}) => {
     <div>
       {todos.map((todo,index)=>
       <div key={index}>
-        <h1>{todo}&nbsp;<button className='delBtn' onClick={()=>deleteHandler(index)}>Delete</button></h1>
+        <h1>{todo}&nbsp;<button className='delBtn' onClick={()=>deleteHandler(index)}>Delete It</button></h1>
       </div>
       )}
     </div>
